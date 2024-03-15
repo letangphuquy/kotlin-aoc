@@ -10,10 +10,6 @@ fun main() {
         }
         listSums.sortWith(compareByDescending { it })
         return listSums
-//        curSum = 0
-//        for (i in 0..2) curSum += listSums[i]
-//
-//        return input.size
     }
 
     fun part1(input: List<Int>): Int = input[0]
@@ -23,7 +19,7 @@ fun main() {
 //    val testInput = readInput("Day01_test")
 //    check(part1(testInput) > 0)
 
-    val input = readInput("Day01")
+    val input = readInput("22_01")
     val list = getSumList(input)
     part1(list).println()
     part2(list).println()
